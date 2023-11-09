@@ -9,5 +9,6 @@ class Student extends Model
 {
     use HasFactory;
     #menambahkan property fillable
+    protected $table= "students"; 
     protected $fillable = ['nama', 'nim', 'email', 'jurusan'];
 }
